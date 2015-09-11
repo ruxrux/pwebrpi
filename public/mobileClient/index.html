@@ -1,0 +1,34 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>hello world ras pi</title>
+    <meta name="description" content="hello world"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mobileClient/styles.css">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+  </head>
+
+  <body>
+
+    <div id="container">
+      <div id="switchContainer">
+        <button id="switch" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+          ILLUMINATE LED
+        </button>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    <script src="mobileClient/modules/core/serverManager.js"></script>
+    <script src="mobileClient/modules/core/brain.js"></script>
+    <script src="mobileClient/main.js"></script>
+
+    <script>
+      init();
+    </script>
+
+  </body>
+</html>
