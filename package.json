@@ -3,10 +3,7 @@
   "version": "0.0.1",
   "description": "hello world ras pi node server",
   "private": true,
-  "scripts": {
-    "start": "node main.js", 
-    "monitor": "nodemon main.js",
-    "deploy": "gcloud preview app deploy app.yaml"
+  "scripts": { "start": "node main.js", "monitor": "nodemon main.js", "deploy": "gcloud preview app deploy main.yaml"
   },
   "dependencies": {
   	"express": "~4.11.2",
